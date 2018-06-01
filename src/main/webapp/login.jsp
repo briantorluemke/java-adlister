@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ include file="partials/head.jsp"%>
+<%@ include file="partials/header.jsp"%>
 <%@ include file="partials/navbar.jsp"%>
 <%@ include file="partials/footer.jsp"%>
 <%
@@ -17,7 +17,7 @@
         if (username.equals("admin") && password.equals("password")) {
             response.sendRedirect("/profile.jsp");
         }
-    }
+    } else if (request.getMethod().equalsIgnoreCase(""))
 %>
 <html>
 <head>

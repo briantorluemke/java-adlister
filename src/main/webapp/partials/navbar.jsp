@@ -5,7 +5,7 @@
   Time: 4:36 PM
   To change this template use File | Settings | File Templates.
 --%>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="/ads">Adlister</a>

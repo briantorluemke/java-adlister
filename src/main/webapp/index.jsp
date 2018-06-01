@@ -1,13 +1,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file="partials/head.jsp"%>
+<%@ include file="partials/header.jsp"%>
 <%@ include file="partials/navbar.jsp"%>
 <%@ include file="partials/footer.jsp"%>
-<html>
+<html style="height: 100%">
 <head>
     <title><%= "some title" %></title>
 </head>
-<body>
+<body style="background-color: darkorange">
     <c:if test="true">
         <h1>Variable names should be very descriptive</h1>
     </c:if>
