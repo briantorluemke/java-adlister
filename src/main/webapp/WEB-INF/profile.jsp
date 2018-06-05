@@ -12,6 +12,8 @@
         <h1>Viewing your profile.</h1>
         <p>Welcome, ${sessionScope.user}!</p>
     </div>
-
+<form action="/logout" method="get">
+    <button style="color: red">Logout</button>
+</form>
 </body>
 </html>
