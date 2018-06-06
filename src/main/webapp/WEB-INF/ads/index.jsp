@@ -16,6 +16,10 @@
         <div class="col-md-6">
             <h2>${ad.title}</h2>
             <p>${ad.description}</p>
+            <h6>${ad.id}</h6>
+            <form action="/ads/delete" method="post">
+                <button name="deleteId" value="${ad.id}">Delete</button>
+            </form>
         </div>
     </c:forEach>
 </div>
